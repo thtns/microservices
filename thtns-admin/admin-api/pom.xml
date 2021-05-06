@@ -3,18 +3,17 @@
          xmlns="http://maven.apache.org/POM/4.0.0"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
-        <artifactId>microservices-platform</artifactId>
+        <artifactId>thtns-admin</artifactId>
         <groupId>com.thtns</groupId>
         <version>1.0-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>thtns-admin</artifactId>
-    <packaging>pom</packaging>
-    <modules>
-        <module>admin-api</module>
-        <module>admin-biz</module>
-    </modules>
+    <artifactId>admin-api</artifactId>
 
+    <properties>
+        <maven.compiler.source>11</maven.compiler.source>
+        <maven.compiler.target>11</maven.compiler.target>
+    </properties>
 
 </project>

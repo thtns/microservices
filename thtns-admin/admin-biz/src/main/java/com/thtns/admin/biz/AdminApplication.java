@@ -1,4 +1,4 @@
-package com.thtns.admin;
+package com.thtns.admin.biz;
 
 /**
  * @author liuyj
